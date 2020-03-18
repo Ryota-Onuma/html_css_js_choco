@@ -1,0 +1,60 @@
+#wrapper {
+  width: 90%;
+  overflow: hidden;
+  background: url("http://free-paper-texture.com/p/p0458/p0458_m.jpg");
+  background-color: rgba(177, 0, 38);
+  background-blend-mode: soft-light;
+  background-size: cover;
+  padding-left: 70px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+#paper {
+  width: 90%;
+  height: 90vh;
+  display: flex;
+  padding: 40px 60px 40px 0;
+  box-sizing: border-box;
+  border-top: 4px double gold;
+  border-bottom: 4px double gold;
+  border-right: 4px double gold;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+/* 以下お手本 */
+#geeksalon_box {
+  width: 800px;
+  font-size: 7rem;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#geeksalon {
+  color: gold;
+}
+#messages p {
+  border-bottom: 2px dashed gold;
+  font-size: 1.2rem;
+  padding-bottom: 10px;
+  font-weight: bold;
+}
+
+#button-container {
+  display: flex;
+  flex-direction: row;
+}
+.button {
+  display: inline-block;
+  padding: 8px 30px;
+  cursor: pointer;
+  color: white;
+  font-size: 2rem;
+  margin-right: 20px;
+}

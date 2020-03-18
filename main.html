@@ -1,0 +1,70 @@
+<html>
+  <head>
+    <!-- <link rel="stylesheet" href="main.css" />
+    <link rel="stylesheet" href="./template/template.css" /> -->
+  </head>
+  <body>
+    <!--   ここから自由に編集できるゾーン-->
+
+    <div id="wrapper">
+      <div id="paper">
+        <div id="geeksalon_box">
+          <!--- <div id="button-container">  JSの軽い紹介
+            <button
+              type="button"
+              style="background: red; border:2px double white;"
+              class="button"
+              onclick="clicked('赤')"
+            >
+              赤
+            </button>
+            <button
+              type="button"
+              style="background: blue; border:2px double white;"
+              class="button"
+              onclick="clicked('青')"
+            >
+              青
+            </button>
+            <button
+              type="button"
+              style="background: yellow; color:black;border:2px double white;"
+              class="button"
+              onclick="clicked('黄')"
+            >
+              黄色
+            </button>
+          </div> -->
+
+          <span id="geeksalon">GeekSalon</span>
+          <div id="messages">
+            <p>GeekSalonの体験会にお越しいただき</p>
+            <p>ありがとうございます！</p>
+            <p>GeekSalonはWeb,Game,iPhone,Web Expertの</p>
+            <p>４つのコースから成り立ちます</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-----  ここまで自由に編集できるゾーン---->
+
+    <!-- 以下は消したりいじらないでください！ チョコレートが消えてしまいます！-->
+    <div id="template"></div>
+    <script src="./template/template.js"></script>
+
+    <script>
+      function clicked(value) {
+        let wrapper = document.getElementById("wrapper");
+        if (value == "赤") {
+          wrapper.style.backgroundColor = "red";
+        } else if (value == "青") {
+          wrapper.style.backgroundColor = "blue";
+        } else if ((value = "黄")) {
+          wrapper.style.backgroundColor = "yellow";
+        }
+      }
+    </script>
+    <!---->
+  </body>
+</html>
